@@ -3,10 +3,10 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "hows-the-serenity"
-  s.version     = "1.0.1"
+  s.version     = "1.0.2"
   s.licenses    = "Nonstandard"
-  s.authors     = ["Tim Pope"]
-  s.email       = ["code@tpop"+'e.net']
+  s.authors     = ["Adam Sven Johnson", "Tim Pope"]
+  s.email       = ["adam@pk"+'qk.net', "code@tpop"+'e.net']
   s.homepage    = "https://github.com/tpope/gem-shut-the-fuck-up"
   s.summary     = %q{Disable gem post installation messages}
   s.files         = `git ls-files`.split("\n")
